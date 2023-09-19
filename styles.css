@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'canela';
+    font-style: italic;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/canela-light-italic.woff2?v=1693500533") format("woff2");
+}
+
+@font-face {
+    font-family: 'canela';
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/canela-light.woff2?v=1693500534") format("woff2");
+}
+
+@font-face {
+    font-family: 'neue';
+    font-weight: 500;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/neue-medium.woff2?v=1693500638") format("woff2");
+}
+
+@font-face {
+    font-family: 'neue';
+    font-weight: 400;
+    src: url("https://cdn.shopify.com/s/files/1/1737/4539/files/neue-book.woff2?v=1693500632") format("woff2");
+}
+
+*{
+    font-family: 'neue';
+    color: white;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #161010;
+    padding: 52px 32px 32px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8D8583;
+}
+
+.nav_left_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    gap: 40px;
+}
+
+.nav_right_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.con_insta, .con_fb{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    border:1px #8D8583 solid;
+}
+
+.logo{
+    padding-top: 56px;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+}
+
+.bot_left{
+    color: #8D8583;
+    font-size: 12px;
+}
+
+.bot_right{
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+@media(max-width:765px){
+    .logo_img{
+        height: 34px;
+    }
+}
+@media(min-width:1440px){
+    .logo_img{
+        height: 70px;
+    }
+}
